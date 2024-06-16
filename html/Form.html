@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="/submit" method="post">
+      <table>
+        <tr>
+          <td><lable for="name">Full Name:</lable></td>
+          <td><input type="text" id="name" name="name" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="username">Username:</label>
+          </td>
+          <td>
+            <input type="text" id="username" name="username" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="password">Password:</label>
+          </td>
+          <td>
+            <input type="password" id="password" name="password" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="re-password">Re-password:</label>
+          </td>
+          <td>
+            <input type="password" id="re-password" name="re-password" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="address">Address:</label>
+          </td>
+          <td>
+            <input type="text" id="address" name="address" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="age">Age:</label>
+          </td>
+          <td>
+            <input type="number" id="age" name="age" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Gender">Gender:</label>
+          </td>
+          <td>
+            <select id="Gender" name="gender">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Others">Others</option>
+              <option value="None">None</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="submit" value="save" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
