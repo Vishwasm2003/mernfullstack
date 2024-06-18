@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 7(CSS)</title>
+    <style>
+      body {
+        background-color: mediumvioletred;
+      }
+      table {
+        background-color: maroon;
+        margin-top: 3%;
+        padding-top: 20px;
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-bottom: 20px;
+      }
+      th,
+      td {
+        color: white;
+        font-family: sans-serif;
+      }
+      td {
+        text-align: left;
+      }
+      button {
+        background-color: white;
+        color: black;
+        height: 40px;
+        width: 80%;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <form align="center">
+      <table align="center" cellspacing="7px">
+        <tr>
+          <th>Name:</th>
+          <td><input type="text" placeholder="your name" name="fname" /></td>
+        </tr>
+        <tr>
+          <th>Email:</th>
+          <td><input type="text" placeholder="your email" name="email" /></td>
+        </tr>
+        <tr>
+          <th>Password:</th>
+          <td><input type="password" id="pass" name="pass" /></td>
+        </tr>
+        <tr>
+          <th>Phone Number:</th>
+          <td align="left"><input type="number" id="phno" name="phno" /></td>
+        </tr>
+        <tr>
+          <th>Gender:</th>
+          <td align="left">
+            Male:<input type="radio" name="gender" value="male" /> Female:<input
+              type="radio"
+              name="gender"
+              value="female"
+            />
+            Other:<input type="radio" name="gender" value="female" />
+          </td>
+        </tr>
+        <tr>
+          <th>Language:</th>
+          <td align="left">
+            <select name="lang">
+              <option value="" selected>Select Language</option>
+              <option value="eng">English</option>
+              <option value="kan">Kannada</option>
+              <option value="hin">Hindi</option>
+              <option value="tel">Telugu</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>Zip Code:</th>
+          <td><input type="number" name="zcode" /></td>
+        </tr>
+        <tr>
+          <th>About:</th>
+          <td>
+            <textarea
+              id="addr"
+              placeholder="Write about yourself..."
+              name="addr"
+              style="height: 40px"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <th colspan="2">
+            <button><b>Register</b></button>
+          </th>
+        </tr>
+      </table>
+      <br />
+    </form>
+  </body>
+</html>

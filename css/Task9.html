@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 4(CSS)</title>
+    <style>
+      #grbt.hvrbtn:hover,
+      #blbt.hvrbtn:hover,
+      #rbt.hvrbtn:hover,
+      #bbt.hvrbtn:hover {
+        width: 150px;
+        margin-left: 3px;
+      }
+      #grbt {
+        background: seagreen;
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;
+      }
+      #blbt {
+        background: deepskyblue;
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;
+      }
+      #rbt {
+        background: red;
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;
+      }
+      #bbt {
+        background: rgba(0, 0, 0, 0.648);
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;
+      }
+      #buttons {
+        float: left;
+        width: 20%;
+        margin-left: -40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="buttons">
+      <div class="hvrbtn" id="grbt"></div>
+      <br />
+      <div id="blbt" class="hvrbtn"></div>
+      <br />
+      <div id="rbt" class="hvrbtn"></div>
+      <br />
+      <div id="bbt" class="hvrbtn"></div>
+    </div>
+    <h1>Hoverable Sidenav Buttons</h1>
+    <p>Hover over the buttons in the left side navigation to open them.</p>
+  </body>
+</html>

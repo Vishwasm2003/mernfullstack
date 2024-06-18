@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 6(CSS)</title>
+    <style>
+      img {
+        height: 35%;
+        width: 50%;
+      }
+      label {
+        padding-right: 30%;
+        font-family: sans-serif;
+      }
+      input {
+        padding-right: 23%;
+        text-align: left;
+      }
+      button {
+        background-color: #4caf50;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 36%;
+        height: 30px;
+      }
+      #cncl {
+        background-color: red;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        width: 25%;
+        height: 35px;
+      }
+      table {
+        width: 100%;
+        border: black;
+        padding-left: 31%;
+      }
+      #rem {
+        padding-right: 27%;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div align="center">
+        <img src="./ProfilePic.jpg" /><br />
+        <label for="uname"><b>Username</b></label
+        ><br />
+        <input
+          type="text"
+          name="uname"
+          placeholder="Enter Username"
+        /><br /><br />
+        <label for="pass"><b>Password</b></label
+        ><br />
+        <input
+          type="password"
+          name="pass"
+          placeholder="Enter Password"
+        /><br /><br />
+        <button>Login</button><br /><br />
+        <div id="rem">
+          <input type="checkbox" name="remember" id="check" />Remember Me<br /><br />
+        </div>
+        <table>
+          <tr>
+            <td>
+              <button id="cncl"><b>Cancel</b></button>
+            </td>
+            <td>Forgot <u>password?</u></td>
+          </tr>
+        </table>
+      </div>
+    </form>
+  </body>
+</html>

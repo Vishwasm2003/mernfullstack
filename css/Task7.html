@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Task 2(CSS)</title>
+    <style>
+      #t1 {
+        width: 50%;
+        border-style: solid;
+        border-width: 1px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 1px;
+        border-color: black;
+      }
+      #t2 {
+        width: auto;
+        border-style: solid;
+        border-width: 1px;
+        border-collapse: separate;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 1px;
+        padding-bottom: 5px;
+        border-color: black;
+      }
+      .td1 {
+        background-color: skyblue;
+        color: blue;
+        border: 0;
+      }
+      .td2 {
+        border-left: 2px;
+        color: blue;
+        border-color: blue;
+        background-color: gainsboro;
+      }
+      #fc1 {
+        background-color: orange;
+        color: white;
+      }
+      #fc2 {
+        background-color: gray;
+        color: white;
+      }
+      .c1 {
+        background-color: white;
+      }
+      #mt {
+        width: 60%;
+        border: 0px;
+      }
+      .h1 {
+        color: black;
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <table id="mt">
+      <tr>
+        <td class="c1">
+          <p class="h1">Vertical Navigation Bar</p>
+          <table id="t1" cellspacing="0" cellpadding="3px">
+            <tr>
+              <td id="fc1">Home</td>
+            </tr>
+            <tr>
+              <td class="td1">Java</td>
+            </tr>
+            <tr>
+              <td class="td1">CSS</td>
+            </tr>
+            <tr>
+              <td class="td1">HTML</td>
+            </tr>
+            <tr>
+              <td class="td1">Bootstrap</td>
+            </tr>
+          </table>
+        </td>
+        <td class="c1">
+          <p class="h1" align="justified">Horizontal Navigation Bar</p>
+          <table id="t2" cellspacing="0" cellpadding="8px">
+            <tr>
+              <td id="fc2">Home</td>
+              <td class="td2">Java</td>
+              <td class="td2">HTML</td>
+              <td class="td2">CSS</td>
+              <td class="td2">Bootstrap</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
